@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "974159395208",
+    "firebase_url": "https://fact-check-67aaa.firebaseio.com",
+    "project_id": "fact-check-67aaa",
+    "storage_bucket": "fact-check-67aaa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974159395208:android:866be99c727a011502a23d",
+        "android_client_info": {
+          "package_name": "com.betalabs.factcheck"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "974159395208-0ga11b101ftlmokmma4g140tip9aafps.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.betalabs.factcheck",
+            "certificate_hash": "ad26bfa1113a2aa9bfe74476b1045bb110c6eaef"
+          }
+        },
+        {
+          "client_id": "974159395208-1u2n8uh7bvrfcua4ako0k6gb9p9dcn7f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAo8HteQJ3aHqFN1wsnJtV8rk7Vz_gehg8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "974159395208-1u2n8uh7bvrfcua4ako0k6gb9p9dcn7f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

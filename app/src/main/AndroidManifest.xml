@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.betalabs.factcheck">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".tc"></activity>
+        <activity android:name=".pp" />
+        <activity android:name=".about" />
+        <activity android:name=".comments_activity_r" />
+        <activity android:name=".r_home" />
+        <activity android:name=".comments_activity" />
+        <activity
+            android:name=".j_home"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".invite"
+            android:noHistory="false" />
+        <activity android:name=".r_test" />
+        <activity android:name=".test" />
+        <activity
+            android:name=".rea_login"
+            android:noHistory="true" />
+        <activity
+            android:name=".jou_login"
+            android:noHistory="true" />
+        <activity
+            android:name=".login"
+            android:noHistory="true" />
+        <activity
+            android:name=".MainActivity"
+            android:noHistory="true"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
